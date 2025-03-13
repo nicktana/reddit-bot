@@ -1,0 +1,14 @@
+{
+  "client_id": "YOUR_CLIENT_ID",
+  "client_secret": "YOUR_CLIENT_SECRET",
+  "user_agent": "Reply Notifier by YOUR_USERNAME",
+  "username": "YOUR_REDDIT_USERNAME",
+  "password": "YOUR_REDDIT_PASSWORD",
+  "post_url": "REDDIT_POST_URL",
+  "check_interval": 60,
+  
+  "twilio_account_sid": "YOUR_TWILIO_ACCOUNT_SID",
+  "twilio_auth_token": "YOUR_TWILIO_AUTH_TOKEN",
+  "twilio_from_number": "+1XXXXXXXXXX",
+  "twilio_to_number": "+1XXXXXXXXXX"
+}

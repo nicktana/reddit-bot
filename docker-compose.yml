@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  reddit-notifier:
+    build: .
+    volumes:
+      - ./config.json:/app/config.json
+    restart: unless-stopped
+    environment:
+      - DISPLAY=${DISPLAY}
+    # If you want the notifications to appear on your host system (Linux only)
+    # Uncomment the following lines:
+    # volumes:
+    #   - ./config.json:/app/config.json
+    #   - /tmp/.X11-unix:/tmp/.X11-unix
+    #   - ${XAUTHORITY}:/root/.Xauthority
